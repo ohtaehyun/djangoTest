@@ -1,7 +1,7 @@
 html, body { height:100%; overflow:hidden }
 
 .mynav{
-  width: 100px;
+  width: 300px;
   height:100vh;
   background: #fafafa;
   border-right: 1px solid rgba(0,0,0,.07);
