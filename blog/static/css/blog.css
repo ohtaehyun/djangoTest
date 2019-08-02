@@ -1,6 +1,21 @@
+html, body { height:100%; overflow:hidden }
+
 .mynav{
   width: 100px;
+  height:100vh;
+  background: #fafafa;
+  border-right: 1px solid rgba(0,0,0,.07);
 }
 .navbar{
+  height: 55px;
+  line-height: 55px;
   margin: 0px;
+  background-color: rgba(0,0,0,.08);
+  text-align: left;
+}
+
+.divider{
+  height: 1px;
+  overflow: hidden;
+  background: rgba(0,0,0,.07);
 }
