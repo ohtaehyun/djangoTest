@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+{% load static %}
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>othDev95's blog</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light">othDev95's Blog</nav>
+
+  <div class="container">
+    <div class="mynav">
+      <ul class="nav flex-column">
+        <li class="nav-item ">
+          <a class="nav-link active" href="#">About me</a>
+        </li>
+        <li class="divider"></li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Project</a>
+        </li>
+        <li class="divider"></li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Career</a>
+        </li>
+        <li class="divider"></li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+        <li class="divider"></li>
+
+
+      </ul>
+    </div>
+
+      <div class="content container">
+        <div class="row">
+            <div class="col-md-8">
+            {% block content %}
+            {% endblock %}
+            </div>
+        </div>
+      </div>
+  </body>
+</html>
