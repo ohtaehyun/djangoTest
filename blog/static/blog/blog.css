@@ -22,9 +22,11 @@ html, body { height:100%; overflow:hidden }
   padding-left: 60px;
   background-color: rgba(250,0,0,.08);
 }
+
 .content{
   float: left;
 }
+
 .divider{
   height: 1px;
   overflow: hidden;
