@@ -1,8 +1,8 @@
 
-html, body { height:100%; overflow:hidden }
+html, body { height:100%; }
 
 .container{
-  overflow: hidden;
+  overflow: auto;
   margin: 0px;
   padding: 0px;
 }
@@ -27,6 +27,7 @@ html, body { height:100%; overflow:hidden }
 }
 
 .content{
+  display: inline-block;
   float: left;
 }
 
@@ -34,4 +35,8 @@ html, body { height:100%; overflow:hidden }
   height: 1px;
   overflow: hidden;
   background: rgba(0,0,0,.07);
+}
+
+.posr{
+  display: inline-block;
 }
