@@ -2,11 +2,12 @@
   padding: 10px;
 }
 
-/* 
 .post-title {
-} */
+  text-align: center;
+}
 
 .post-info {
+  text-align: right;
   padding: 10px;
 }
 
