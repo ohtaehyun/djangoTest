@@ -2,8 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  margin-block-start: 0;
-  margin-block-end: 0;
+  margin:0;
 }
 
 html,
@@ -31,8 +30,7 @@ body {
 h1 {
   display: inline-block;
   font-family: "Lobster", cursive;
-  margin-block-start: 0;
-  margin-block-end: 0;
+  margin: 0;
 }
 
 a {
@@ -42,8 +40,6 @@ a {
 }
 p {
   display: inline-block;
-  margin-block-start: 0;
-  margin-block-end: 0;
 }
 
 .search {
