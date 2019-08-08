@@ -3,9 +3,18 @@
 *::after {
   box-sizing: border-box;
 }
+.post {
+  height: 45px;
+  line-height: 45px;
+}
+.post > p {
+  float: right;
+}
 
-h1,p{
+.post > h1 {
   display: inline-block;
-  margine-block-start:0;
-  margine-blocd-end:0;
+}
+
+.post > h1 > a:hover {
+  color: blue;
 }
