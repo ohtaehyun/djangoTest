@@ -71,9 +71,7 @@ p {
 
 .nav-ul {
   display: block;
-  padding-inline-start: 0;
-  margin-block-start:0;
-  margin-block-end:0;
+  padding: 0;
 }
 .nav-item {
   list-style-type: none;
