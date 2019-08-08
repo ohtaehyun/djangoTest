@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% extends 'blog/base.html' %} {% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    {% block content %}
+    <link rel="stylesheet" href="{% static 'css/post_detail.css' %}" />
+    <div class="post-header">
+      <div class="post-title">
+        <h2>{{ post.title }}</h2>
+      </div>
+      <br />
+      <div class="post-info">
+        <br />
+        <div class="post-author">{{ post.author }}</div>
+        <div class="post-published">{{ post.published_date }}</div>
+      </div>
+    </div>
+    <br />
+    <div class="detail-divider"></div>
+    <br />
+    <div class="post-content">{{ post.text }}</div>
+    {% endblock %}
+  </body>
+</html>

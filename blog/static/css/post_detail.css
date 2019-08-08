@@ -1,0 +1,31 @@
+.post-header {
+  padding: 10px;
+}
+
+/* 
+.post-title {
+} */
+
+.post-info {
+  padding: 10px;
+}
+
+.post-author {
+  display: inline-block;
+  margin-right: 20px;
+}
+.post-published {
+  display: inline-block;
+}
+
+/* 
+.post-content {
+} */
+
+.detail-divider {
+  margin: auto;
+  display: block;
+  height: 1px;
+  width: 95%;
+  background-color: rgba(5, 5, 5, 0.76);
+}

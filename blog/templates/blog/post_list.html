@@ -18,12 +18,12 @@
       <link rel="stylesheet" href="{% static 'css/post_list.css' %}" />
       {% for post in posts %}
       <div class="post">
-        <h1>
-          <a href="{% url 'post_detail' pk=post.pk }">{{ post.title }}</a>
-        </h1>
-        <p>{{ post.published_date | linebreaksbr }} 작성</p>
+        <h2>
+          <a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a>
+        </h2>
+        <p>{{ post.published_date }}</p>
       </div>
-      <hr />
+      <div class="list-divider"></div>
       {% endfor %} {% endblock %}
     </div>
 

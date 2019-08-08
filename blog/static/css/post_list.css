@@ -6,15 +6,24 @@
 .post {
   height: 45px;
   line-height: 45px;
+  padding-right: 25px;
 }
 .post > p {
   float: right;
 }
 
-.post > h1 {
+.post > h2 {
   display: inline-block;
 }
 
-.post > h1 > a:hover {
-  color: blue;
+.post > h2 > a:hover {
+  color: royalblue;
+}
+
+.list-divider {
+  display: block;
+  width: 95%;
+  height: 1px;
+  background-color: rgba(5, 5, 5, 0.76);
+  margin-bottom: 5px;
 }
