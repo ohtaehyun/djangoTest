@@ -1,0 +1,11 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,p{
+  display: inline-block;
+  margine-block-start:0;
+  margine-blocd-end:0;
+}
