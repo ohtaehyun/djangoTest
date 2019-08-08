@@ -1,0 +1,7 @@
+h4 {
+  display: inline-block;
+}
+
+.content a {
+  display: inline-block !important;
+}
