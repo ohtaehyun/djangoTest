@@ -3,11 +3,15 @@
 {% load static %}
 <html lang="ko" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>othDev95's blog</title>
-        <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="{% static 'wtf/base.css' %}">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+      href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="{% static 'wtf/base.css' %}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
     <div class="container">
@@ -22,26 +26,26 @@
       <main class="main">
         <div class="nav-bar">
           <ul class="nav-ul">
-            <li class="nav-item"><a href="">About othdev95</a></li>
+            <li class="nav-item"><a href="/about_me">About othdev95</a></li>
             <div class="divider"></div>
-            <li class="nav-item"><a href="">Project</a></li>
+            <li class="nav-item"><a href="/project">Project</a></li>
             <div class="divider"></div>
-            <li class="nav-item"><a href="">Post</a></li>
+            <li class="nav-item"><a href="/post_list">Post</a></li>
             <div class="divider"></div>
-            <li class="nav-item"><a href="">hi ram ji</a></li>
+            <li class="nav-item"><a href="/hi_ramji">hi ramji</a></li>
             <div class="divider"></div>
           </ul>
         </div>
 
         <div class="content">
-          {% block content %}
-          {% endblock %}
+          {% block content %} {% endblock %}
         </div>
-
       </main>
 
       <footer class=" footer">
         <p>© 2019 All Rights Reserved.</p>
+        <br />
+        <p>contact: othdev95@gmail.com</p>
       </footer>
     </div>
   </body>
