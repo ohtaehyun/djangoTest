@@ -42,18 +42,48 @@ h4 {
   display: inline-block;
 }
 
-.search {
+.search-form {
   display: inline;
   position: absolute;
   top: 40%;
   right: 20px;
 }
 
-.search > input[type="text"] {
-  border-radius: 10px;
-  border-style: inset;
-  outline: none;
+.search-form > input[type="text"] {
+  display: block;
+  width: 250px;
+  height: 100%;
   text-indent: 2px;
+  border: none;
+  border-radius: 6px;
+  padding: 0;
+  padding-right: 20%;
+}
+
+.search-form > input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.08);
+}
+
+.search-btn {
+  padding: 0px;
+  position: absolute;
+  height: 100%;
+  width: 20%;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  border: none;
+}
+
+.search-btn:focus {
+  outline: none;
+}
+
+.search-btn:hover {
+  color: #fafafa;
+  border-radius: 0 6px 6px 0;
+  background-color: black;
 }
 
 /* Main */
