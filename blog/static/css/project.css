@@ -1,7 +1,11 @@
-h4 {
+p {
   display: inline-block;
 }
 
 .content a {
   display: inline-block !important;
+}
+
+.content a:hover {
+  color: royalblue;
 }
